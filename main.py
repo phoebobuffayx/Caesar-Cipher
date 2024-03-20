@@ -37,10 +37,9 @@ while not should_end:
 
     restart = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n")
     if restart == "no":
+        clear_screen() 
         should_end = True
-        print("Goodbye")
-
-    clear_screen()  
+        print("Goodbye")  
     
 
 
